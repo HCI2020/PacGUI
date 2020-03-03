@@ -1,11 +1,21 @@
+DOC_DIR=documents
+DOC_SRC=$(DOC_DIR)/src
+
+MD = $(wildcard $(DOC_SRC)/*.md)
+MD_PDF = $(MD:$(DOC_SRC)/%.md=$(DOC_DIR)/%.pdf)
 
 all: docs
 
-docs: documents/pacman_intro.pdf
+docs: $(MD_PDF)
 
+$(DOC_DIR)/%.pdf: $(DOC_SRC)/%.md
+	pandoc -t pdf $< -o $@
 
-documents/pacman_intro.pdf: documents/src/pacman_intro.md
-	pandoc -t pdf documents/src/pacman_intro.md -o documents/pacman_intro.pdf
+#documents/pacman_intro.pdf: documents/src/pacman_intro.md
+#	pandoc -t pdf $< -o $@
+#
+#documents/minutes.pdf: documents/src/minutes.md
+#	pandoc -t pdf %< -o $@
 
 clean: 
-	rm documents/pacman_intro.pdf
+	rm $(MD_PDF)

@@ -16,6 +16,11 @@
 
 2020-03-10
 ==========
+## Members Present
+* Shae
+* Murray
+* Gideon
+* Lance
 
 ## Items Addressed
 

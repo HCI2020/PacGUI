@@ -28,4 +28,23 @@ Agenda for 2020-03-17: Tuesday 17th of March.
 
 ## Tasks
 
+* Requirements Analysis: do here or delegate for later
+   * User Studies
+   * Use Case
+   * HTA
+   * User Scenarios
+   * UX/Usability
+   * Is this all Requirements? Some done in both requirements and design?
+
+* Create schedule of remaining time and expected duration for tasks.
+* Start compiling checklist of required tasks for final report.
+* Talk about Presentation: Comfort levels.
+
+* Report Format: Latex?
+
+## Notes
+* I (Shae) Am familiar with Latex, and have used it with previous project reports. I'd very much like to do the final composition in that if possible, and am happy to get everyone's work, compose it, format it, and compile it.
+
+
+
 

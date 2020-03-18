@@ -1,13 +1,14 @@
-name: CI
+name: Build Documentation
 
 on: [push]
 
 jobs:
-  build:
+  build_docs:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
+    - uses: docker://pandoc/latex
     - name: Run a one-line script
-      run: make
+      run: make docs

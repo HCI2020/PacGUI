@@ -173,3 +173,11 @@ core/netctl 1.20-2 [installed]
     usr/bin/wifi-menu
     usr/share/bash-completion/completions/wifi-menu
 ~~~
+
+Dependencies and Conflicts
+--------------------------
+Pacman performs automatic dependency resolution. When a user installs a package, the system will also add dependencies to the list of installed packages (recursively); These dependencies will be recorded in the manifest as "implicitly installed", meaning that they were installed to be a dependency of another package and will be removed (if requested) when that package is removed. Pacman requires all dependencies of a package to be installed before that package is installed, otherwise it will not go ahead with the operation; this prevents the system from entering an invalid (unsafe) state.
+
+Arch Linux is a "rolling release" distribution, meaning that the system as a whole is not versioned, and devices running the system are intended to update the whole set of packaged at once rather than piecemeal, always keeping each package updated to its latest version. As such, the versioning conflicts encountered in other distributions are rare or absent from Arch systems. Nevertheless, pacman does understand version dependencies (say that package A requires package B with version >= 1.52) and enforces them.
+
+A more common conflict is when two packages provide the same program (like MySQL and MariaDB, which is an open-source implementation of MySQL). In this situation, the user will be asked whether they want the new package or the old package, since both cannot exist on the system simultaneously. This occasionally happens in the course of upgrading the system, as the package tree is rearranged to better organize its contents.

@@ -29,14 +29,21 @@ Agenda for 2020-03-17: Tuesday 17th of March.
 ## Tasks
 
 * Requirements Analysis: do here or delegate for later
+   * Personas 
+   * Scenarios
    * User Studies
    * Use Case
    * HTA
-   * User Scenarios
    * UX/Usability
    * Is this all Requirements? Some done in both requirements and design?
 
 * Create schedule of remaining time and expected duration for tasks.
+* Creation of project milestones and incorporation into schedule.
+   * Requirements document
+   * Conceptual Design document
+   * Low Fidelity Prototypes
+   * High Fidelity Prototypes
+   * Final Report
 * Start compiling checklist of required tasks for final report.
 * Talk about Presentation: Comfort levels.
 

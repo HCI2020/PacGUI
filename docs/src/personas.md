@@ -1,6 +1,11 @@
 # The System Administrator
 ## Characteristics
 * Software Professional
+* Uses Arch at work (don't ask)
+* Most interested in reliability, stability, fine-grained control
+* Needs to be able to automate tasks
+* Needs to be able to receive alerts and view logs. Requires record keeping
+
 
 # The Casual User
 ## Characteristics
@@ -18,4 +23,5 @@
 * Some understanding of the mechanics of a linux system.
 
 ## Interests
+* Works in IT, help-desk, linux support
 * Programs casually.

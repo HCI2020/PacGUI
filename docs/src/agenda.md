@@ -53,5 +53,24 @@ Agenda for 2020-03-17: Tuesday 17th of March.
 * I (Shae) Am familiar with Latex, and have used it with previous project reports. I'd very much like to do the final composition in that if possible, and am happy to get everyone's work, compose it, format it, and compile it.
 
 
+Agenda for 2020-03-24. Tuesday 24th of March, 2020.
+===================================================
 
+## Tasks
+* Update on progress
+   * Requirements document
+   * Low-Fidelity prototypes
 
+* Discuss/Generate Conceptual Design
+   * Definition and Explanation
+   * Metaphors and Analogues
+   * Conceptual Model draft document.
+
+* Discuss Functional Design in terms of Requirements document (complete or partial)
+   * Controls, Icons, Windows, and other Low-level UI Elements.
+   * Discuss Alternatives.
+   * This 
+
+## Notes
+* While the low-fidelity designs are "Individual" work, I think considering that they're teaching us collaboratie protototype generation processes, it would be reasonable to use them. I can document the process to include in our report.
+* This analysis can be based on the requirements document. I'll bring a hard-copy (if it's done by then).

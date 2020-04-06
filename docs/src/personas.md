@@ -3,8 +3,6 @@
 ## Olwen: The System Administrator
 ### Characteristics
 * Software Professional
-<<<<<<< Updated upstream
-=======
 * Uses Arch at work (don't ask)
 * Most interested in reliability, stability, fine-grained control
 * Needs to be able to automate tasks
@@ -19,7 +17,6 @@
 ### Interests
 * Works in IT, help-desk, linux support
 * Programs casually.
->>>>>>> Stashed changes
 
 ## Lleu: The Casual User
 ### Characteristics
@@ -29,8 +26,6 @@
 * Prefers to use the mouse to control applications.
 * Wants to spend as little time managing the installed applications as possible.
 
-<<<<<<< Updated upstream
-
 # The Power User
 ## Characteristics
 * Prefers doing work on the command line wherever possible.
@@ -39,6 +34,4 @@
 
 ## Interests
 * Programs casually.
-=======
 \newpage
->>>>>>> Stashed changes
